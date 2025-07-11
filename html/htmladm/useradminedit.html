@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep z używanymi meblami</title>
+    <link rel="stylesheet" href="../../css/cssadm/useradmineditstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-chair"></i> Używane meble </a>
+        <nav class="navbar">
+            <a href="../../html/htmladm/postsadmin.html">Ogłoszenia</a>
+            <a href="../../html/htmladm/usersadmin.html">Użytkownicy</a>
+            <a href="../../html/htmladm/userprofadmin.html">Profil użytkownika</a>
+            <a href="../../html/htmladm/statsadmin.html">Statystyki</a>
+            <a href="../../html/htmladm/logoutadmin.html">Wylogowanie</a>
+        </nav>
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <div class="cart-items-container">
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">Koszyk</h3>
+        <a href="#" class="btn"> Kup </a>
+    </div>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="form-edit">
+                    <label for="userLogin">Nazwa użytkownika:</label>
+                    <input type="text" id="userLogin" name="userLogin" value="" required>
+        
+                    <label for="userName">Imię:</label>
+                    <input type="text" id="userName" name="userName" value="" required>
+        
+                    <label for="userSurname">Nazwisko:</label>
+                    <input type="text" id="userSurname" name="userSurname" value="" required>
+        
+                    <label for="userImage">Link do zdjęcia:</label>
+                    <input type="text" id="userImage" name="userImage" value="" required>
+
+                    <label for="userEmail">Email:</label>
+                    <input type="text" id="userEmail" name="userEmail" value="" required>
+
+                    <label for="userTelephone">Telefon:</label>
+                    <input type="text" id="userTelephone" name="userTelephone" value="" required>
+        
+                    <label for="userDescription">Notatka bio:</label>
+                    <textarea id="userDescription" name="userDescription" rows="4" required></textarea>
+        
+                    <a href="usersadmin.html" class="btn"> Zapisz zmiany </a>
+                    <a href="usersadmin.html" class="btn"> Anuluj </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Paweł Wozignój. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="../../js/script.js"></script>
+</body>
+</html>

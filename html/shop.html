@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep</title>
+    <link rel="stylesheet" href="../css/shopstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+
+        <header class="header">
+            <a href="#" class="logo"> <i class="fas fa-chair"></i> Używane meble </a>
+            <nav class="navbar">
+                <a href="../html/index.html">Home</a>
+            <a href="../html/shop.html">Sklep</a>
+            <a href="../html/info.html">Informacje</a>
+            <a href="../html/concact.html">Kontakt</a>
+            <a href="../html/tables.html">Tabele</a>
+            <a href="../html/login.html">Login</a>
+            </nav>
+            <div class="icons">
+                <div id="cart-btn" class="fas fa-shopping-cart"></div>
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+        </header>
+
+    
+
+
+        <div class="cart-items-container">
+            <div id="close-form" class="fas fa-times"></div>
+            <h3 class="title">Koszyk</h3>
+            <a href="#" class="btn"> Kup </a>
+        </div>
+
+
+    <section class="main-content">
+        <section class="shop-wrapper">
+            <div class="filters">
+                <h2>Filtruj według:</h2>
+                <div class="filter-group">
+                    <h3>Stan:</h3>
+                    <label><input type="checkbox" name="stan" value="nowy"> Nowy</label>
+                    <label><input type="checkbox" name="stan" value="średni"> Średni</label>
+                    <label><input type="checkbox" name="stan" value="zły"> Zły</label>
+                </div>
+                <div class="filter-group">
+                    <h3>Kategoria:</h3>
+                    <label><input type="checkbox" name="kategoria" value="kuchnia"> Kuchnia</label>
+                    <label><input type="checkbox" name="kategoria" value="jadalnia"> Jadalnia</label>
+                    <label><input type="checkbox" name="kategoria" value="salon"> Salon</label>
+                </div>
+                <div class="filter-group">
+                    <h3>Cena:</h3>
+                    <label><input type="radio" name="cena" value="rosnąco"> Rosnąco</label>
+                    <label><input type="radio" name="cena" value="malejąco"> Malejąco</label>
+                </div>
+            </div>
+        
+
+
+            <section class="shop-products" id="shop-products">
+
+                <h1 class="heading">WSZYSTKO DLA TWOJEGO DOMU</h1>
+            
+                <div class="box-container">
+            
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-bedroom-bed.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Łóżko comf-b</h3>
+                            <span class="price">2500.00 zł</span>
+                            <h4>Stan: Nowy</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>
+                                Podnies swoją sypialnię na wyższy poziom wygodą i stylem dzięki naszemu nowoczesnemu łóżku.
+                                Zostało stworzone z wysokiej jakości materiałów, które gwarantują trwałość i stabilność.
+                                Jego uniwersalny design doskonale wpasuje się w różnorodne aranżacje sypialnianego wystroju.
+                                Przekonaj się, jak nasze łóżko może stać się centralnym elementem Twojej sypialni, dodając stylu i relaksu do Twojego codziennego rytuału snu.
+                            </h4>
+                        </div>
+                    </div>
+                    
+            
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-living-room-chair.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Krzesło jik-12</h3>
+                            <span class="price">250.00 zł</span>
+                            <h4>Stan: Nowy</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>Oto krzesło do salonu, które łączy w sobie elegancję, funkcjonalność i komfort.
+                                 Nasze nowoczesne krzesło nie tylko pasuje do różnorodnych stylów wnętrz,
+                                  ale także zapewnia wyjątkowy komfort podczas posiłków. Wykonane z wysokiej jakości materiałów,
+                                   zapewnia trwałość i łatwość w utrzymaniu czystości. Solidna konstrukcja gwarantuje stabilność,
+                                    co sprawia, że jest to doskonały wybór dla Twojego stołu do jadalni.
+                            </h4>
+                        </div>
+                    </div>
+            
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-dining-room-table.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Stół drix</h3>
+                            <span class="price">750.00 zł</span>
+                            <h4>Stan: Średni</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>Nasz solidny stół jadalniany wykonany z wysokiej jakości drewna dębowego to esencja elegancji i funkcjonalności.
+                                 Z uniwersalnym stylem idealnie dopasowuje się do różnych wnętrz, oferując stabilność oraz prostotę w designie.
+                                  Tworzy atmosferę bliskości i komfortu podczas posiłków, sprzyjając niezapomnianym chwilom w gronie najbliższych.
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-kitchen-cupboard.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Szafka kuchenna prox</h3>
+                            <span class="price">50 zł</span>
+                            <h4>Stan: Zły</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>Ta szafka kuchenna, choć kiedyś stanowiła centrum organizacji w kuchni,
+                                 teraz prezentuje się zaniedbana i zużyta. Z biegiem lat, jej powierzchnia
+                                  wykazuje wyraźne ślady użytkowania, z widocznymi rysami, przebarwieniami i odpryskami farby.
+                                Drzwi szafki trudno otwierają się, a zawiasy nie działają sprawnie.
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-dining-chair.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Krzesło prix</h3>
+                            <span class="price">150.00 zł</span>
+                            <h4>Stan: Nowy</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>To krzesło do jadalni łączy w sobie prostotę, wygodę i funkcjonalność.
+                                 Wykonane z solidnego drewna oraz tapicerowane wysokiej jakości tkaniną,
+                                  oferuje nie tylko komfort podczas posiłków, ale także elegancki design,
+                                   który doskonale pasuje do różnych aranżacji wnętrz.
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-bedroom-wardrobe.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Szafa woB</h3>
+                            <span class="price">699.99 zł</span>
+                            <h4>Stan: Średni</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>Nasza nowoczesna szafa do sypialni to nie tylko funkcjonalny element meblowy,
+                                 ale również harmonijne połączenie stylu i praktyczności.
+                                  Wykonana z solidnego drewna i starannie wykończona,
+                                   ta szafa oferuje mnóstwo przestrzeni do przechowywania,
+                                    pozwalając na schludne i uporządkowane pomieszczenie.
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-bedroom-night-stand.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Szafka nocna Lux</h3>
+                            <span class="price">300.00 zł</span>
+                            <h4>Stan: Nowy</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>Nasza elegancka szafka nocna wykonana z solidnego drewna to nie tylko praktyczny element w sypialni,
+                                 ale również wyrażenie naturalnej urody i funkcjonalności. Została starannie wyprodukowana,
+                                  aby stanowić nie tylko praktyczne miejsce do przechowywania, ale także estetyczny dodatek do każdej sypialni.
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-bedroom-bed2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Łóżko drAx</h3>
+                            <span class="price">500.00 zł</span>
+                            <h4>Stan: Zły</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>To łóżko, choć kiedyś stanowiło oazę spokoju i komfortu, teraz prezentuje się zaniedbane i zużyte.
+                                 Powierzchnia ramy wykazuje widoczne ślady czasu,
+                                 z rysami, odpryskami farby i w niektórych miejscach nadwyrężonymi konstrukcjami.
+                                Wygniecenie i zużycie materaca, jak również luzujące się elementy konstrukcyjne wpływają na komfort spania.
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="../images/products-bedroom-night-stand2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Szafka nocna Ambi</h3>
+                            <span class="price">500.00 zł</span>
+                            <h4>Stan: Nowy</h4>
+                            <div class="cart-options">
+                                <input type="number" min="1" value="1">
+                                <a href="#" class="btn">Dodaj do koszyka</a>
+                            </div>
+                            <h4>Nasza szafka nocna to praktyczny i stylowy dodatek do każdej sypialni.
+                                 Wykonana z solidnego drewna, ta elegancka szafka jest nie tylko praktycznym miejscem do przechowywania,
+                                  ale także ozdobą, dodającą uroku i funkcjonalności do przestrzeni sypialnianej.</h4>
+                        </div>
+                    </div>            
+                </div>
+            
+            </section>
+            
+        </section>
+        
+    </section>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Paweł Wozignój. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+
+     <script src="../js/script.js"></script>
+</body>
+</html>

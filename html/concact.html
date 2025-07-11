@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz kontaktowy</title>
+    <link rel="stylesheet" href="../css/concactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-chair"></i> Używane meble </a>
+        <nav class="navbar">
+            <a href="../html/index.html">Home</a>
+            <a href="../html/shop.html">Sklep</a>
+            <a href="../html/info.html">Informacje</a>
+            <a href="../html/concact.html">Kontakt</a>
+            <a href="../html/tables.html">Tabele</a>
+            <a href="../html/login.html">Login</a>
+        </nav>
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <div class="cart-items-container">
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">Koszyk</h3>
+        <a href="#" class="btn"> Kup </a>
+    </div>
+
+    <section class="main-content">
+        <div class="form-container">
+            <h2>Formularz kontaktowy</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fname">Imię:</label>
+                    <input type="text" id="fname" name="firstname" required>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Nazwisko:</label>
+                    <input type="text" id="lname" name="lastname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="issue">Opisz swój problem:</label>
+                    <textarea id="issue" name="issue" required></textarea>
+                </div>
+                <div class="icons">
+                    <div id="fcb-btn" class="fa-brands fa-facebook-f fa-beat"></div>
+                    <div id="twit-btn" class="fa-brands fa-twitter fa-beat"></div>
+                    <div id="inst-btn" class="fa-brands fa-instagram fa-beat"></div>
+                </div>
+                <div class="form-group">
+                    <a href="#" class="btn"> Wyślij </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Paweł Wozignój. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

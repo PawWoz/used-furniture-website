@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel logowania</title>
+    <link rel="stylesheet" href="../css/loginstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+     <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-chair"></i> Używane meble </a>
+        <nav class="navbar">
+            <a href="../html/index.html">Home</a>
+            <a href="../html/shop.html">Sklep</a>
+            <a href="../html/info.html">Informacje</a>
+            <a href="../html/concact.html">Kontakt</a>
+            <a href="../html/tables.html">Tabele</a>
+            <a href="../html/login.html">Login</a>
+        </nav>
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+
+
+    <div class="cart-items-container">
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">Koszyk</h3>
+        <a href="#" class="btn"> Kup </a>
+    </div>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="form-wrapper">
+                <h1>Logowanie</h1>
+                <form action="#" method="post">
+                    <input type="text" name="username" placeholder="Nazwa użytkownika" required>
+                    <input type="password" name="password" placeholder="Hasło" required>
+                    <a href="/html/htmladm/indexadmin.html" class="btn"> zaloguj jako administrator </a>
+                    <a href="../html/index.html" class="btn"> zaloguj jako użytkownik </a>
+                </form>
+                <div class="icons">
+                    <div id="fcb-btn" class="fa-brands fa-facebook-f fa-beat"></div>
+                    <div id="twit-btn" class="fa-brands fa-twitter fa-beat"></div>
+                    <div id="inst-btn" class="fa-brands fa-instagram fa-beat"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Paweł Wozignój. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+
+     <script src="../js/script.js"></script>
+</body>
+</html>
