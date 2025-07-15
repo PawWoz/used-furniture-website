@@ -1,7 +1,11 @@
 # Used Furniture Website
 
 An e-commerce and community platform dedicated to selling and promoting carefully restored used furniture with a vintage charm.
-
+![ss1](imgages/screenshot1.png)
+![ss2](imgages/screenshot2.png)
+![ss3](imgages/screenshot3.png)
+![ss4](imgages/screenshot4.png)
+![ss5](imgages/screenshot5.png)
 ---
 
 ## Table of Contents
